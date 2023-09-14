@@ -10,10 +10,25 @@ public class DrawDiamond {
         int height;
         System.out.print("Please enter the diamond height: ");
         height=sc.nextInt();
-        int realheight = 2*height-1;
 
-        for (int i = 0; i<realheight;i++){
-            //hianyos
+        for (int i = 1; i <= height; i++) {
+            for (int j = 1; j <= height - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int i = height - 1; i >= 1; i--) {
+            for (int j = 1; j <= height - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
 
 

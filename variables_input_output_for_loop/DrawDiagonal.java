@@ -6,15 +6,19 @@ public class DrawDiagonal {
         Scanner sc;
         sc = new Scanner(System.in);
 
-        int num;
-        System.out.println("Please enter the square size: ");
-        num=sc.nextInt();
+        int size;
+        System.out.print("Please enter the square size: ");
+        size=sc.nextInt();
 
-        for (int i = 0; i<num;i++){
-            if (i==0 || i == num){
-                System.out.println("%%%%%%");
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+                if (i == 1 || i == size || j == 1 || j == size || i == j) {
+                    System.out.print("%");
+                } else {
+                    System.out.print(" ");
+                }
             }
-            //hianyos
+            System.out.println();
         }
 
     }
