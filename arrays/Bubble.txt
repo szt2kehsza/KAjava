@@ -1,0 +1,9 @@
+Create a function that takes an array of numbers as parameter
+and returns an array where the elements are sorted in ascending numerical
+order
+When you are done, add a second boolean parameter to the function
+If it is `true` sort the array descending, otherwise ascending
+
+Example:
+should print [5, 9, 12, 24, 34]
+should print [34, 24, 12, 9, 5]

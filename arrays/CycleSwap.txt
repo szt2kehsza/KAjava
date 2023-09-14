@@ -1,0 +1,4 @@
+Create a function that takes two parameters. 
+An array of integers and an integer as shift.
+Use this shift number to rotate the elements in the list to the right.
+Print the original and the rotated list.

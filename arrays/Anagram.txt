@@ -1,0 +1,11 @@
+Create a function named isAnagram() following your current language's style guide.
+It should take two strings and return a boolean value depending on whether it's
+an anagram or not.
+
+The function should ignore the letter case as well as any non (latin) letter
+characters, i.e. "Astronomer" is an anagram of "Moon starer!"
+
+System.out.println(isAnagram("Astronomer", "Moon starer!"));
+// should print: true
+System.out.println(isAnagram("green", "fox"));
+// should print: false
