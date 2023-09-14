@@ -6,8 +6,9 @@ public class Bmi {
         double heightInM = 1.78;
 
         // Print the Body mass index (BMI) based on these values
+        double eredmeny = massInKg/Math.pow(heightInM, 2);
 
-        System.out.println(massInKg/Math.pow(heightInM, 2));
+        System.out.println((double)Math.round(eredmeny*100)/100);
 
     }
 }
