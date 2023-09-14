@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class AverageOfInput {
@@ -16,9 +17,9 @@ public class AverageOfInput {
             sum += tomb[i];
         }
 
-        System.out.print("Sum: "+sum+", Average: "+(sum/5.0));
+        double avg = (double) sum/tomb.length;
 
-
+        System.out.print("Sum: "+sum+", Average: "+avg);
 
 
     }
