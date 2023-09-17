@@ -16,7 +16,6 @@ public class DrawPyramid {
                 System.out.print(" ");
             }
 
-            // Print asterisks
             for (int k = 1; k <= 2 * i - 1; k++) {
                 System.out.print("*");
             }
