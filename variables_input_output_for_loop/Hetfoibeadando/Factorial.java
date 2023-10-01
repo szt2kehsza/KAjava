@@ -1,4 +1,4 @@
-package Fibonacci;
+package Hetfoibeadando;
 
 import java.util.Scanner;
 
