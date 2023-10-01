@@ -13,7 +13,7 @@ public class CountFromTo {
         num1 = sc.nextInt();
         System.out.print("Please enter the second number: ");
         num2 = sc.nextInt();
-        if (num1>num2){
+        if (num1>num2 || num1==num2){
             System.out.println("The second number should be bigger");
         }
 
