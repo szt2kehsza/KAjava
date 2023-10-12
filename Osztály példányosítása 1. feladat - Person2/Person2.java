@@ -1,15 +1,15 @@
-public class Person {
+public class Person2 {
     private String name;
     private int age;
     private String gender;
 
-    public Person(String name, int age, String gender) {
+    public Person2(String name, int age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
 
-    public Person() {
+    public Person2() {
         this.name = "Jane Doe";
         this.age = 30;
         this.gender = "female";
@@ -48,11 +48,11 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person person1 = new Person("John", 25, "male");
+        Person2 person1 = new Person2("John", 25, "male");
         person1.introduce();
         person1.getGoal();
 
-        Person person2 = new Person();
+        Person2 person2 = new Person2();
         person2.introduce();
         person2.getGoal();
     }
