@@ -15,7 +15,8 @@ public class Animal {
         System.out.println("Szemek száma: " + numberOfEyes);
     }
 
-    // Getterek
+    // Getterek és setterek
+
     public int getNumberOfLegs() {
         return numberOfLegs;
     }
@@ -28,7 +29,6 @@ public class Animal {
         return name;
     }
 
-    // Setterek
     public void setNumberOfLegs(int numberOfLegs) {
         this.numberOfLegs = numberOfLegs;
     }
@@ -43,6 +43,15 @@ public class Animal {
 
     public static void main(String[] args) {
         Animal animal = new Animal(4, 2, "Kutya");
+
+        System.out.println("Eredeti adatok:");
+        animal.printAnimal();
+
+        animal.setNumberOfLegs(3);
+        animal.setNumberOfEyes(1);
+        animal.setName("Macska");
+
+        System.out.println("\nMódosított adatok:");
         animal.printAnimal();
     }
 }
