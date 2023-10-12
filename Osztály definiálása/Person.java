@@ -62,7 +62,25 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person person = new Person("Frigyes", "Nagy", 1998, 1, 24);
-        person.printPerson();
+        Person person1 = new Person("Frigyes", "Nagy", 1998, 1, 24);
+
+        System.out.println("Első példány adatai:");
+        person1.printPerson();
+
+        Person person2 = new Person("John", "Doe");
+
+        person2.setBirthYear(2000);
+        person2.setBirthMonth(5);
+        person2.setBirthDay(15);
+
+        System.out.println("\nMásodik példány adatai:");
+        person2.printPerson();
+
+        person2.setFirstName("Jane");
+        person2.setLastName("Doe");
+
+        System.out.println("\nMódosított második példány adatai:");
+        person2.printPerson();
+
     }
 }
