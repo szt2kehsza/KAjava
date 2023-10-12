@@ -60,5 +60,12 @@ public class Date {
     public static void main(String[] args) {
         Date date = new Date(2023, 5, 30);
         date.printDate();
+
+        Date incorrectDate = new Date(2023, 2, 30);
+        incorrectDate.printDate(); // Hibás dátumként kezeli a február 30-át
+
+        Date firstDayOfMonth = new Date(2023, 5, 1);
+        firstDayOfMonth.printDate();
+ 
     }
 }
