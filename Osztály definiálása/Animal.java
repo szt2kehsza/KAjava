@@ -47,9 +47,9 @@ public class Animal {
         System.out.println("Eredeti adatok:");
         animal.printAnimal();
 
-        animal.setNumberOfLegs(3);
-        animal.setNumberOfEyes(1);
-        animal.setName("Macska");
+        animal.setNumberOfLegs(2);
+        animal.setNumberOfEyes(2);
+        animal.setName("Kacsa");
 
         System.out.println("\nMódosított adatok:");
         animal.printAnimal();
